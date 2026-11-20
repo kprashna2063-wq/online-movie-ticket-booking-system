@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | MovieBook</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">MovieBook</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="movies.html">Movies</a>
+      <span id="auth-nav" class="auth-nav"><a href="login.html">Login</a><a class="nav-button" href="register.html">Register</a></span>
+    </nav>
+  </header>
+  <main class="form-card">
+    <h1>Welcome back</h1>
+    <p>Sign in to continue to MovieBook.</p>
+    <p class="form-message" id="form-message" role="alert" hidden></p>
+    <form id="login-form">
+      <label>Email<input type="email" name="email" placeholder="you@example.com" autocomplete="username" required></label>
+      <label>Password<input type="password" name="password" placeholder="Your password" autocomplete="current-password" required></label>
+      <p class="small forgot-link"><a href="forgot-password.html">Forgot your password?</a></p>
+      <button class="primary-button" type="submit">Login</button>
+    </form>
+    <p class="small">New here? <a href="register.html">Create an account</a></p>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
